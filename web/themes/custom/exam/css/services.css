@@ -1,0 +1,21 @@
+.node--services-teaser {
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.node--services-teaser .block-field-blocknodeservicestitle {
+  font-size: 22px;
+  margin-top: 32px;
+}
+.node--services-teaser .block-field-blocknodeservicesbody {
+  color: #ccc;
+  font-size: 13px;
+  letter-spacing: 0;
+  margin: 10px 0 22px;
+}
+.node--services-teaser .node-readmore a {
+  color: #e4e4e6;
+  background-color: #6e9bca;
+  padding: 7px;
+}
+
+/*# sourceMappingURL=services.css.map */

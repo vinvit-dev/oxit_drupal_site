@@ -1,0 +1,112 @@
+@import "variables";
+
+.view {
+  margin-bottom: 60px;
+
+  &-content {
+    display: block;
+    .col-md-3, .col-md-2 {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+
+      img {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+.block-field-blocknodepagetitle span,
+.node--article-full .block-field-blocknodearticletitle span,
+.node--client-full .block-field-blocknodeclienttitle span,
+.node--projects-full .block-field-blocknodeprojectstitle span,
+.node--services-full .block-field-blocknodeservicestitle span{
+		display: block;
+		font-size: 28px;
+		color: $black;
+		font-weight: 700;
+		text-transform: uppercase;
+		text-align: center;
+		position: relative;
+		margin: 30px 0 40px;
+		padding-bottom: 10px;
+		&:after {
+			content: "";
+			width: 60px;
+			height: 3px;
+			background-color: $gray;
+			position: absolute;
+			left: calc(50% - 30px);
+			bottom: 0;
+		}
+}
+
+.node--article-full,
+.node--client-full,
+.node--projects-full,
+.node--services-full,
+.node--type-page[about="/contact"]{
+	max-width: 995px;
+	margin: 0 auto;
+	img {
+		display: block;
+		margin: 0 auto 30px;
+	}
+	p {
+		font-size: 17px;
+	}
+	.field--name-field-service-type {
+		text-transform: uppercase;
+		margin: 10px 0 0;
+		font-size: 18px;
+		color: $gray;
+	}
+}
+
+article {
+	.block-field-blockuseruserfield{
+		&-picture img{
+			margin: 30px auto 0;
+		}
+		&-full-name {
+			text-align: center;
+			margin: 10px 0;
+			font-size: 28px;
+		}
+		&-position {
+			text-align: center;
+			margin: 0 0 10px;
+			font-size: 20px;
+			color: $gray;
+		}
+	}
+	.block-extra-field-blockuserusermember-for {
+		h4 {
+			color: $black;
+			font-size: 18px;
+			font-weight: 400;
+			&::after {
+				content: ":"
+			}
+		}
+		text-align: center;
+	}
+	.block-field-blockuseruserfield-social {
+		display: flex;
+		justify-content: center;
+		margin: 10px 0;
+		ul {
+			display: flex;
+			li{
+				padding: 7px;
+			}
+		}
+
+	}
+}
+
+article[data-history-node-id='9'] {
+  max-width: 995px;
+  margin: 0 auto;
+}

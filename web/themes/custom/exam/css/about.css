@@ -1,0 +1,43 @@
+.view-about-link {
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 4px solid #373645;
+  border-bottom: 4px solid #6e9bca;
+  margin: 50px auto 35px;
+  padding: 10px 0;
+}
+.view-about-link .views-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.view-about-link .views-field {
+  margin: 10px 0;
+  justify-content: center;
+  align-items: center;
+}
+.view-about-link .views-field-title span {
+  font-size: 28px;
+  font-weight: 700;
+}
+.view-about-link .views-field-body p {
+  font-size: 19px;
+  color: #ccc;
+  padding-left: 30px;
+  width: 100%;
+}
+.view-about-link .views-field-view-node a {
+  display: block;
+  background-color: #6e9bca;
+  padding: 10px;
+  color: white;
+  line-height: 1;
+}
+
+@media (max-width: 768px) {
+  .view-about-link .views-row {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=about.css.map */

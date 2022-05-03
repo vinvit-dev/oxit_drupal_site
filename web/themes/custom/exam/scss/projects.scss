@@ -1,0 +1,36 @@
+@import "variables";
+
+.view-homepage-projects {
+	background-color: #f6f6f6;
+	padding-top: 20px;
+	.views-row article{
+		background-color: white;
+		border-bottom: 1px solid $black;
+	}
+	.pager-nav {
+		clear: left;
+	}
+}
+
+.node--projects-teaser {
+	text-transform: uppercase;
+	margin-top: 20px;
+	padding-bottom: 7px;
+	.block-field-blocknodeprojects {
+		&title {
+			font-size: 22px;
+			margin: 35px 0 0;
+		}
+		&field-service-type {
+			font-size: 14px;
+			margin: 10px 0;
+		}
+	}
+	.block-extra-field-blocknodeprojectslinks{
+		a {
+			background-color: $black;
+			padding: 7px;
+			color: white;
+		}
+	}
+}

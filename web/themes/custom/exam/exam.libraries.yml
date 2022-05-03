@@ -1,0 +1,18 @@
+framework:
+  css:
+    theme:
+      "https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;400;500;700&display=swap": {external: true}
+      css/elements.css: {}
+      css/style.css: {}
+    components:
+      css/header.css: {}
+      css/footer.css: {}
+      css/about.css: {}
+      css/views.css: {}
+      css/services.css: {}
+      css/projects.css: {}
+      css/team.css: {}
+      css/news.css: {}
+      css/clients.css: {}s
+  js:
+    js/script.js: {}

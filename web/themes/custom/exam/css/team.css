@@ -1,0 +1,31 @@
+.view-homapage-team article {
+  display: block;
+  margin: 10px 0;
+}
+.view-homapage-team .field {
+  text-transform: uppercase;
+}
+.view-homapage-team .field--name-field-full-name {
+  margin-top: 30px;
+  font-size: 22px;
+}
+.view-homapage-team .field--name-field-position {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 5px;
+}
+.view-homapage-team .flag {
+  margin-bottom: 10px;
+}
+.view-homapage-team a.link-on-user {
+  font-size: 16px;
+  color: white;
+  background: #373645;
+  text-transform: uppercase;
+  padding: 7px;
+  display: block;
+  margin: 10px auto;
+  max-width: 115px;
+}
+
+/*# sourceMappingURL=team.css.map */

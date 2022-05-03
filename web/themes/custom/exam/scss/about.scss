@@ -1,0 +1,43 @@
+@import "variables";
+.view-about-link{
+  text-align: center;
+	text-transform: uppercase;
+	border-top: 4px solid $black;
+	border-bottom: 4px solid $blue;
+	margin: 50px auto 35px;
+	padding: 10px 0;
+	.views-row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.views-field {
+		margin: 10px 0;
+		justify-content: center;
+		align-items: center;
+		&-title span {
+			font-size: 28px;
+			font-weight: 700;
+		}
+		&-body p{
+			font-size: 19px;
+			color: #ccc;
+			padding-left: 30px;
+			width: 100%;
+		}
+		&-view-node a{
+			display: block;
+			background-color: $blue;
+			padding: 10px;
+			color: white;
+			line-height: 1;
+		}
+	}
+}
+@media (max-width: 768px){
+	.view-about-link{
+		.views-row {
+			flex-direction: column;
+		}
+	}
+}

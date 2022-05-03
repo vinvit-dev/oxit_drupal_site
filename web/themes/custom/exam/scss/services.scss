@@ -1,0 +1,24 @@
+@import "variables";
+
+  .node--services-teaser {
+	margin-top: 20px;
+    text-transform: uppercase;
+    .block-field-blocknodeservices{
+      &title {
+        font-size: 22px;
+        margin-top: 32px;
+      }
+      &body {
+        color: $gray;
+        font-size: 13px;
+        letter-spacing: 0;
+        margin: 10px 0 22px;
+      }
+
+    }
+    .node-readmore a{
+      color: $white;
+      background-color: $blue;
+      padding: 7px;
+    }
+  }

@@ -1,0 +1,33 @@
+@import "variables";
+
+.view-homapage-team {
+	article {
+		display: block;
+		margin: 10px 0;
+	}
+	.field {
+		text-transform: uppercase;
+	}
+	.field--name-field-full-name {
+		margin-top: 30px;
+		font-size: 22px;
+	}
+	.field--name-field-position {
+		font-size: 14px;
+		color: $gray;
+		margin-bottom: 5px;
+	}
+	.flag {
+		margin-bottom: 10px;
+	}
+  a.link-on-user {
+    font-size: 16px;
+    color: white;
+    background: $black;
+    text-transform: uppercase;
+    padding: 7px;
+    display: block;
+    margin: 10px auto;
+    max-width: 115px;
+  }
+}

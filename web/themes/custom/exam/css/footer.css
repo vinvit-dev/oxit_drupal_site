@@ -1,0 +1,31 @@
+.footer {
+  background-color: #373645;
+}
+.footer .region-footer {
+  position: relative;
+}
+.footer .navbar-brand {
+  margin-left: 8px;
+  font-weight: 400;
+}
+.footer .block-social-media-links {
+  width: auto;
+  display: block;
+  width: 130px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.footer .block-social-media-links ul.platforms {
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 120px;
+  height: auto;
+  height: 25px;
+}
+
+/*# sourceMappingURL=footer.css.map */
